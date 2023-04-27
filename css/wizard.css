@@ -1,0 +1,192 @@
+.form_select_opt{
+ /* color:red; */
+ /* padding: 5px; 
+ */
+ display: block !important;
+}
+.nav-link.active {
+background-color: #54ba9e;
+color: white;
+}
+.progress {
+    background-color: #333;
+  }
+  
+  .progress-bar {
+    background-color: #54ba9e;
+    background-image: linear-gradient(to bottom, rgba(84,186,158), rgb(5, 156, 116));
+    border-color: #053327;
+  }
+    
+    
+  @media (max-width: 576px) {
+    .wizard-progress .progress-bar {
+      width: 12.5%;
+    }
+    .nav-tabs .nav-link {
+      font-size: 0.6rem;
+    }
+  }
+  @media (min-width: 576px) {
+    .wizard-progress .progress-bar {
+      width: 16.666%;
+    }
+  }
+  @media (min-width: 768px) {
+    .wizard-progress .progress-bar {
+      width: 25%;
+    }
+  }
+  @media (min-width: 992px) {
+    .wizard-progress .progress-bar {
+      width: 33.333%;
+    }
+  }
+  @media (min-width: 1200px) {
+    .wizard-progress .progress-bar {
+      width: 41.666%;
+    }
+  }
+  @media (min-width: 1400px) {
+    .wizard-progress .progress-bar {
+      width: 50%;
+    }
+  }
+  @media screen and (max-width: 663px) {
+    .nav-tabs .nav-item {
+      display: none;
+    }
+  }
+label{
+  font-weight:bold;  
+  }
+.wizard .nav-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .nav-tabs .nav-link {
+    font-size: 0.8rem;
+  }
+  
+  
+  .wizard .nav-tabs .nav-item {
+    margin-right: 0;
+  }
+  
+  .wizard .nav-tabs .nav-link {
+    padding: .5rem 1rem;
+    margin-right: 0;
+  }
+  
+  .wizard .tab-pane {
+    display: none;
+  }
+  
+  .wizard .tab-pane.active {
+    display: block;
+    
+  }
+  
+  .wizard .form-horizontal .form-group {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .wizard .text-right {
+    margin-top: 20px;
+  }
+  
+
+  /* Dynamic table styling */
+
+  .table-wrapper {
+    width: 100%;
+    margin: 30px auto;
+    background: #fff;
+    padding: 20px;	
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+.table-title {
+    padding-bottom: 10px;
+    margin: 0 0 10px;
+}
+.table-title h2 {
+    margin: 6px 0 0;
+    font-size: 22px;
+}
+.addRows {
+    float: right;
+    height: 30px;
+    font-weight: bold;
+    font-size: 12px;
+    text-shadow: none;
+    min-width: 100px;
+    border-radius: 50px;
+    line-height: 13px;
+    background-color: #54ba9e;
+    color: white;
+}
+.deleteRow {
+  color: white;
+  float: right;
+  height: 30px;
+  font-weight: bold;
+  font-size: 12px;
+  text-shadow: none;
+  min-width: 100px;
+  border-radius: 50px;
+  line-height: 13px;
+}
+
+.table-title .add-new i {
+    margin-right: 4px;
+}
+table.table {
+    table-layout: fixed;
+}
+table.table tr th, table.table tr td {
+    border-color: #e9e9e9;
+}
+table.table th i {
+    font-size: 13px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+table.table th:last-child {
+    width: 100px;
+}
+table.table td a {
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 5px;
+    min-width: 24px;
+}    
+table.table td i {
+    font-size: 19px;
+}
+table.table td a.add i {
+    font-size: 24px;
+    margin-right: -1px;
+    position: relative;
+    top: 3px;
+}    
+table.table .form-control {
+    height: 32px;
+    line-height: 32px;
+    box-shadow: none;
+    border-radius: 2px;
+}
+table.table .form-control.error {
+    border-color: #f50000;
+}
+table.table td .add-s4 {
+    display: none;
+}
+table.table td .add-s6 {
+  display: none;
+}
+table.table td .add-s13 {
+  display: none;
+}
