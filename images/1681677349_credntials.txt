@@ -1,0 +1,10 @@
+User: cybillne_demo
+
+Database: cybillne_thermal_sys_db
+
+
+
+'hostname' => '64.31.43.218',
+    'username' => 'cybillne_demo',
+    'password' => 'Osama@1234',
+    'database' => 'cybillne_cybillne_demo',

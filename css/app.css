@@ -1,0 +1,272 @@
+/* Label Css */
+/* class='text-label' */
+.text-label {
+    color: #061478;
+}
+
+/* heading Css */
+/* class='text-heading' */
+.text-heading {
+    margin-top: 24px;
+    font-size: large;
+    font-weight: 600;
+    color: #54ba9e;
+    text-align: center;
+}
+
+/* subheading Css */
+/* class='text-subheading' */
+.text-subheading {
+    /* margin-top: 24px; */
+    font-size: large;
+    font-weight: 400;
+    color: #020940;
+    text-align: center;
+}
+
+/* Table Heading Css */
+.table-heading {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+.table-res {
+    width: 100%;
+    padding: 8px;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+
+/* button-sucss */
+.button-sucss {
+    align-items: center;
+    appearance: none;
+    background-image: radial-gradient(
+        100% 100% at 100% 0,
+        #54ff7f 0,
+        green 100%
+    );
+    border: 0;
+    border-radius: 6px;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
+        rgba(45, 35, 66, 0.3) 0 7px 13px -3px,
+        rgba(58, 65, 111, 0.5) 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono", monospace;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow 0.15s, transform 0.15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+    font-size: 18px;
+}
+
+.button-sucss:focus {
+    box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px,
+        rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button-sucss:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px,
+        rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #02865a 0 -3px 0 inset;
+    transform: translateY(-2px);
+}
+
+.button-sucss:active {
+    box-shadow: #0ead70 0 3px 7px inset;
+    transform: translateY(2px);
+}
+
+/*  Button CSS */
+/* Class name :  button-29 */
+.button-29 {
+    align-items: center;
+    appearance: none;
+    background-image: radial-gradient(
+        100% 100% at 100% 0,
+        #54ff7f 0,
+        #242f85 100%
+    );
+    border: 0;
+    border-radius: 6px;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
+        rgba(45, 35, 66, 0.3) 0 7px 13px -3px,
+        rgba(58, 65, 111, 0.5) 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono", monospace;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow 0.15s, transform 0.15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+    font-size: 18px;
+}
+
+.button-29:focus {
+    box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px,
+        rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button-29:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px,
+        rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+    transform: translateY(-2px);
+    color: #fff;
+}
+
+.button-29:active {
+    box-shadow: #3c4fe0 0 3px 7px inset;
+    transform: translateY(2px);
+}
+
+/* Welcome Page */
+.main {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+.main-2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* card */
+.main-cards {
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.mian-card {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.main-card-top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-name {
+    font-size: large;
+    font-weight: 600;
+    color: #54ba9e;
+}
+
+.card-button {
+    text-align: center;
+    color: #fff;
+    background-color: #02865a;
+    padding: 2px;
+    /* background: rgba(255, 255, 255, 0.2); */
+    border-radius: 8px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.card-label {
+    font-weight: 400;
+}
+
+.card-button-download {
+    text-align: center;
+    color: #fff;
+    background-color: #024b86;
+    padding: 2px;
+    /* background: rgba(255, 255, 255, 0.2); */
+    border-radius: 8px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* login  */
+.mainlogin {
+    /* height: 80vh; */
+    display: flex;
+    justify-content: center;
+}
+.mainlogin-2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logincard {
+    padding: 16px;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+
+
+  /* desktop */
+  .desktop {
+    display: block;
+  }
+  
+  /* mobile */
+  .mobile {
+    display: none;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    /* hide desktop and show mobile for screen sizes less than or equal to 768px */
+    .desktop {
+      display: none;
+    }
+  
+    .mobile {
+      display: block;
+    }
+  }
